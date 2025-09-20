@@ -1,2 +1,2 @@
-# Weather-Station
+# 🌦️🌡️Weather-Station
 This project consists of a weather station designed to collect and monitor key environmental parameters such as temperature, humidity, and pressure. The system integrates multiple sensors with a microcontroller for data acquisition, processing, and calibration. A real-time data visualization interface was implemented to provide users with accurate and accessible climate information. The final prototype demonstrates potential applications in agriculture, environmental monitoring, and smart city solutions.
