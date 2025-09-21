@@ -39,6 +39,9 @@ This project consists of a weather station designed to collect and monitor key e
   - SCL → A5 
   - GND → GND
 ---
+## Wiring of Components
+
+---
 ## 📖 Guide to Use
 1. Clone this repository:
 git clone https://github.com/Ghouilaanas/Weather-Station.git
