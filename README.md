@@ -48,8 +48,9 @@ The image below shows the complete wiring of all components with the Arduino Uno
 ## 📖 Guide to Use
 1. Clone this repository:
 git clone https://github.com/Ghouilaanas/Weather-Station.git
-2. 📂 **Open the STM32CubeIDE project** corresponding to the desired traffic flow detection approach.
-3. 🛠️ **Build and flash the firmware** onto the Arduino Uno board using the Arduino IDE.
-4. 🔌 **Connect the sensors, microcontroller, and display** following the wiring diagram for the selected setup.
-5. ⚡ **Power on the system** and **observe the real-time temperature, humidity, pressure, and light readings** on the LCD.
+2. 📂 **Open the the Arduino Sketch**: open the Arduino IDE and load the .ino file for this project
+3. ⚙️ **Connect the Components**
+4. 🛠️ **Build and flash the firmware** onto the Arduino Uno board using the Arduino IDE.
+5. 🔌 **Connect the sensors, microcontroller, and display** following the wiring diagram for the selected setup.
+6. ⚡ **Power on the system** and **monitor the real-time environmental data (temperature, humidity, atmospheric pressure, and light intensity) displayed** on the LCD.
 
