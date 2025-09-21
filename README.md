@@ -40,7 +40,9 @@ This project consists of a weather station designed to collect and monitor key e
   - GND → GND
 ---
 ## Wiring of Components
+The image below shows the complete wiring of all components with the Arduino Uno for this project, including the DHT11, BMP180, I2C LCD, RGB LED, and LDR.
 
+![Arduino Wiring](Wiring of Components.png)
 ---
 ## 📖 Guide to Use
 1. Clone this repository:
