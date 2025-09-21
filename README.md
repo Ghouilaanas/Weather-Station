@@ -10,7 +10,6 @@ This project consists of a weather station designed to collect and monitor key e
   - Temperature and humidity sensor **DHT11**
   - Pressure sensor **BMP180**
   - Light sensor/ Photoresistor
-- Switch
 - LED RGB
 - **Display**: I²C LCD 16x2
 - **Programming**: ArduinoIDE
@@ -18,21 +17,22 @@ This project consists of a weather station designed to collect and monitor key e
 #### 1.2 Hardware connections
 - **DHT11** : 
   - VCC → 5V
-  - OUT → 
+  - DATA → Pin 7
   - GND → GND
 - **BMP180** : 
   - VCC → 3.3V
   - SDA → A4 
   - SCL → A5
   - GND → GND
-- **LED RGB** : 
-  - VCC → 5V
-  - OUT → 
-  - GND → GND
+- **LED RGB (Common cathode)** : 
+  - R → Pin 11
+  - G → Pin 10
+  - B → Pin 9
+  - C → GND
 - **LDR** : 
-  - VCC → 5V
-  - OUT → 
-  - GND → GND
+  - LDR + resistor in a voltage divider → common output connected to A0
+  - One leg of the LDR → 5V
+  - The other leg of the LDR → A0 + resistor (≈10kΩ) to GND
 - **LCD** :
   - VCC → 5V
   - SDA → A4 
