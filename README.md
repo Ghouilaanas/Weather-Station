@@ -5,13 +5,21 @@ This project consists of a weather station designed to collect and monitor key e
 ## ⚙️ Tools and Technologies
 
 #### 1. Hardware components
-- **Microcontroller**: STM32F407 Discovery
+- **Microcontroller**: Arduino Uno
 - **Sensor**: Analog Infrared Sensor **Sharp**
 - **Display**: I²C LCD 16x2
-- **Programming**: STM32CubeIDE / HAL library (Hardware Abstraction Layer)
+- **Programming**: ArduinoIDE
 
 #### 1.2 Hardware connections
-- **Sharp** : 
+- **BMP180** : 
+  - VCC → 5V
+  - OUT → PA1 (ADC1_IN1 sur STM32)
+  - GND → GND
+- **DHT11** : 
+  - VCC → 5V
+  - OUT → PA1 (ADC1_IN1 sur STM32)
+  - GND → GND
+- **DHT22** : 
   - VCC → 5V
   - OUT → PA1 (ADC1_IN1 sur STM32)
   - GND → GND
