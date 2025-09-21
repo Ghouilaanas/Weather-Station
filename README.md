@@ -6,27 +6,37 @@ This project consists of a weather station designed to collect and monitor key e
 
 #### 1. Hardware components
 - **Microcontroller**: Arduino Uno
-- **Sensor**: Analog Infrared Sensor **Sharp**
+- **Sensors**:
+  - Temperature and humidity sensor **DHT11**
+  - Pressure sensor **BMP180**
+  - Light sensor/ Photoresistor
+- Switch
+- LED RGB
 - **Display**: I²C LCD 16x2
 - **Programming**: ArduinoIDE
 
 #### 1.2 Hardware connections
-- **BMP180** : 
-  - VCC → 5V
-  - OUT → PA1 (ADC1_IN1 sur STM32)
-  - GND → GND
 - **DHT11** : 
   - VCC → 5V
-  - OUT → PA1 (ADC1_IN1 sur STM32)
+  - OUT → 
   - GND → GND
-- **DHT22** : 
+- **BMP180** : 
+  - VCC → 3.3V
+  - SDA → A4 
+  - SCL → A5
+  - GND → GND
+- **LED RGB** : 
   - VCC → 5V
-  - OUT → PA1 (ADC1_IN1 sur STM32)
+  - OUT → 
+  - GND → GND
+- **LDR** : 
+  - VCC → 5V
+  - OUT → 
   - GND → GND
 - **LCD** :
   - VCC → 5V
-  - SDA → PB7 (Bus I2C1 sur STM32)
-  - SCL → PB6 (Bus I2C1 sur STM32)
+  - SDA → A4 
+  - SCL → A5 
   - GND → GND
 ---
 ## 📖 Guide to Use
